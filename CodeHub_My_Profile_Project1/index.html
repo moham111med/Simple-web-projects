@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="بورتفوليو محمد أحمد - مطور واجهات أمامية" />
+  <title>محمد أحمد | مطور واجهات أمامية</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ============ Header ============ -->
+  <header>
+    <h3 class="logo"><a href="#home">محمد</a></h3>
+    <nav aria-label="التنقل الرئيسي">
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">عني</a></li>
+        <li><a href="#skills">مهاراتي</a></li>
+        <li><a href="#projects">مشاريعي</a></li>
+        <li><a href="#contact">تواصل</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ Hero ============ -->
+    <section id="home">
+      <div id="hero-title">
+        <p class="badge">متاح لمشاريع جديدة</p>
+        <h1>
+          مرحباً، أنا محمد.
+          <span>أبني تجارب ويب بسيطة وجميلة.</span>
+        </h1>
+        <p>
+          في بداية رحلتي كمطور واجهات أمامية، بدأت أحوّل الأفكار إلى صفحات
+          سريعة وواضحة وسهلة الاستخدام على أي شاشة.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn" href="#projects">مشاريعي</a>
+          <a class="btn btn-outline" href="#contact">تواصل معي</a>
+        </div>
+      </div>
+
+      <div id="hero-image">
+        <div id="image">M</div>
+        <div id="image-title">
+          <p>محمد أحمد</p>
+          <p>مطور تطبيقات من مصر</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="about">
+      <h2>نبذة عني</h2>
+      <p>بدأت تعلم تطوير الويب لأنني أحب مشاهدة فكرة تتحول إلى شيء يمكن للناس استخدامه فعلاً.</p>
+      <p>أركز حالياً على كتابة HTML نظيف، وCSS مرن، وتجارب تعمل بشكل جيد على الجوال قبل الحاسوب.</p>
+      <p>هدفي هو تعلم شيء جديد كل يوم والمشاركة في مشاريع لها تأثير حقيقي ومحتوى واضح.</p>
+    </section>
+
+    <!-- ============ Skills ============ -->
+    <section id="skills">
+      <h2>مهاراتي</h2>
+      <div id="skills-info">
+        <article>
+          <p class="skill-name">HTML</p>
+          <p>هيكل Semantic واضح، Forms منظمة، ومحتوى Accessible.</p>
+        </article>
+        <article>
+          <p class="skill-name">CSS</p>
+          <p>Flexbox، Responsive Design، وأسلوب بصري متناسق.</p>
+        </article>
+        <article>
+          <p class="skill-name">JavaScript</p>
+          <p>تفاعلات بسيطة بتخلي الواجهة أوضح وأسهل للمستخدم.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section id="projects">
+      <h2>مشاريعي</h2>
+
+      <div class="project-card">
+        <div class="project-image">
+          <span class="project-number">01</span>
+          <div class="circle">Nor</div>
+        </div>
+        <article>
+          <h3>منصة نور التعليمية</h3>
+          <p>صفحة تعريفية لمنصة تعليم أونلاين، مركزة على سهولة القراءة والاشتراك من الموبايل.</p>
+          <p class="skill-cards">
+            <span>HTML</span><span>CSS</span><span>Responsive</span>
+          </p>
+        </article>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <span class="project-number">02</span>
+          <div class="circle">Coffee</div>
+        </div>
+        <article>
+          <h3>كافيه بُن</h3>
+          <p>موقع بسيط يعرض المنيو والمكان وساعات العمل.</p>
+          <p class="skill-cards">
+            <span>Semantic HTML</span><span>Flexbox</span>
+          </p>
+        </article>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <span class="project-number">03</span>
+          <div class="circle">Wave</div>
+        </div>
+        <article>
+          <h3>فعالية موج</h3>
+          <p>صفحة تسجيل لفعالية شبابية بتجربة واضحة وسريعة.</p>
+          <p class="skill-cards">
+            <span>Accessibility</span><span>Forms</span>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contact">
+      <p class="contact-eyebrow">خلينا نعمل حاجة حلوة</p>
+      <h2>لديك فكرة مشروع؟ أرسل لي التفاصيل.</h2>
+      <p class="contact-note">
+        املأ النموذج، وسأرد عليك في أقرب وقت ممكن.
+        هذا النموذج تجريبي ولا يرسل البيانات إلى أي خادم.
+      </p>
+
+      <form action="#home" method="post">
+        <label for="name">أسمك</label>
+        <input type="text" id="name" name="name" required placeholder="مثال: أحمد علي" />
+
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" required placeholder="name@example.com" dir="ltr" />
+
+        <label for="project-type">محتاج مساعدة في إيه؟</label>
+        <select id="project-type" name="project-type" required>
+          <option value="">اختر نوع المشروع</option>
+          <option value="landing-page">Landing Page</option>
+          <option value="portfolio">Portfolio</option>
+          <option value="developing">تطوير واجهة موجودة</option>
+        </select>
+
+        <label for="idea-space">احكيلي عن فكرتك</label>
+        <textarea id="idea-space" name="idea-space" rows="5" required placeholder="اكتب تفاصيل فكرتك هنا..."></textarea>
+
+        <button type="submit">ابعت رسالة</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer>
+    <p>© 2026 محمد أحمد. صُنع بحب، HTML وCSS.</p>
+    <a class="back-to-top" href="#home">ارجع إلى فوق ↑</a>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
